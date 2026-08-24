@@ -10,12 +10,12 @@ export default function Hero() {
         <div className="hero-inner">
           <span className="hero-kicker">
             <span className="dot" />
-            Open to Data Science, AI/ML & Analytics roles
+            Open to : Analytics · AI/ML · Data Science · Product
           </span>
 
           <div>
             <h1 className="hero-name">Prathamesh Mulay</h1>
-            <p className="hero-headline">Data Scientist | AI &amp; Analytics | Product</p>
+            <p className="hero-headline">Data & AI | Analytics | Product</p>
           </div>
 
           <p className="hero-description">
