@@ -6,10 +6,10 @@
   --color-text: #16192b;
   --color-text-muted: #5a5f74;
   --color-text-soft: #83879a;
-  --color-accent: #2f5dff;
-  --color-accent-dark: #1f3fd6;
-  --color-accent-soft: #eef1ff;
-  --color-accent-soft-border: #d7deff;
+  --color-accent: #16a34a;
+--color-accent-soft: #ecfdf3;
+--color-accent-dark: #15803d;
+--color-accent-soft-border: #bbf7d0;
 
   --font-display: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
   --font-body: 'Inter', system-ui, sans-serif;

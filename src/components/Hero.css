@@ -5,14 +5,39 @@
 
 .hero-bg {
   position: absolute;
-  inset: 0;
+  inset: -10%;
   z-index: -1;
-  background:
-    radial-gradient(560px circle at 85% 8%, var(--color-accent-soft), transparent 60%),
-    radial-gradient(480px circle at 8% 30%, #f4f6ff, transparent 55%);
   pointer-events: none;
+  overflow: hidden;
+
+  background:
+    radial-gradient(
+      500px circle at 85% 15%,
+      var(--color-accent-soft),
+      transparent 60%
+    ),
+    radial-gradient(
+      450px circle at 10% 35%,
+      var(--color-accent-soft),
+      transparent 60%
+    );
+
+  animation: heroFloat 18s ease-in-out infinite alternate;
 }
 
+@keyframes heroFloat {
+  0% {
+    transform: translate(0, 0) scale(1);
+  }
+
+  50% {
+    transform: translate(-25px, 20px) scale(1.05);
+  }
+
+  100% {
+    transform: translate(25px, -20px) scale(1.08);
+  }
+}
 .hero-inner {
   display: grid;
   gap: 2rem;
