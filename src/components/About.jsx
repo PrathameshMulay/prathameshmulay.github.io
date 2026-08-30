@@ -13,7 +13,7 @@ export default function About() {
           <div className="about-text">
             <p>
               I am an MS in Information Management student at the University of Illinois
-              Urbana-Champaign, specializing in Data Science &amp; Analytics. I work across
+              Urbana-Champaign. I work across
               machine learning, data engineering, business intelligence, and AI, with experience
               translating complex business problems into analytical solutions.
             </p>
@@ -32,7 +32,7 @@ export default function About() {
           <div className="about-highlights">
             <div className="card about-highlight">
               <div className="about-highlight-label">Focus</div>
-              <div className="about-highlight-value">Machine Learning, Data Engineering &amp; AI</div>
+              <div className="about-highlight-value">Data Analytics, Product &amp; AI</div>
             </div>
             <div className="card about-highlight">
               <div className="about-highlight-label">Currently</div>
