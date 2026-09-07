@@ -73,7 +73,7 @@ export default function Hero() {
             {/* RIGHT — PHOTO */}
             <div className="hero-photo-wrapper">
               <img
-                src="/PM_Photo.png"
+                src="/PM_photo.png"
                 alt="Prathamesh Mulay"
                 className="hero-photo"
               />
