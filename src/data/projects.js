@@ -75,6 +75,61 @@ export const projects = [
         'Data Validation',
       ],
     },
+  },{
+    id: 'ai-recruiter',
+    name: 'AI Recruiter — Job Matching & Outreach Agent',
+    category: 'AI / Product',
+    technologies: [
+      'Python',
+      'LLMs',
+      'NLP',
+      'Resume Parsing',
+      'Job Matching',
+      'Streamlit',
+    ],
+    description:
+      'Built an AI-powered recruiting application that analyzes a candidate’s resume against job opportunities and generates personalized application outreach.',
+    highlight: 'AI-powered job matching and personalized outreach.',
+    architecture: [
+      'Resume',
+      'Resume Parsing',
+      'Job Description',
+      'LLM Analysis',
+      'Candidate–Job Matching',
+      'Personalized Outreach',
+      'Application Workflow',
+    ],
+
+    caseStudy: {
+
+      problem:
+        'Applying to jobs at scale requires repeatedly reviewing job descriptions, assessing fit, tailoring application materials, and writing personalized outreach, creating a time-consuming and repetitive workflow.',
+
+      solution:
+        'Built an AI recruiting application that parses a candidate resume, analyzes job descriptions, evaluates candidate–job fit, and generates personalized outreach based on the candidate’s experience and the specific opportunity.',
+
+      architecture:
+        'A candidate resume is provided to the application and parsed into structured information. Job descriptions are analyzed alongside the candidate profile, with an LLM evaluating the alignment between skills, experience, and role requirements. The system then generates personalized outreach and application content based on the identified fit.',
+
+      technicalApproach:
+        'Combined document parsing, natural language processing, and LLM-based reasoning to transform unstructured resume and job-description text into structured candidate–job insights. The application uses the resulting context to generate role-specific recommendations and personalized outreach.',
+
+      governance:
+        'Designed the workflow to keep generated content grounded in the candidate’s actual resume and the target job description, reducing unsupported claims and preventing the system from inventing candidate experience.',
+
+      results:
+        'Created an end-to-end AI-assisted recruiting workflow that reduces repetitive job application work while producing more targeted, role-specific outreach.',
+
+      technology: [
+        'Python',
+        'LLMs',
+        'NLP',
+        'Resume Parsing',
+        'Job Matching',
+        'Streamlit',
+      ],
+
+    },
   },
   {
     id: 'fund-categorization-reporting',
@@ -132,60 +187,5 @@ export const projects = [
       technology: ['Python', 'LSTM', 'Deep Learning', 'Machine Learning'],
     },
   },
-      {
-    id: 'ai-recruiter',
-    name: 'AI Recruiter — Job Matching & Outreach Agent',
-    category: 'AI / Product',
-    technologies: [
-      'Python',
-      'LLMs',
-      'NLP',
-      'Resume Parsing',
-      'Job Matching',
-      'Streamlit',
-    ],
-    description:
-      'Built an AI-powered recruiting application that analyzes a candidate’s resume against job opportunities and generates personalized application outreach.',
-    highlight: 'AI-powered job matching and personalized outreach.',
-    architecture: [
-      'Resume',
-      'Resume Parsing',
-      'Job Description',
-      'LLM Analysis',
-      'Candidate–Job Matching',
-      'Personalized Outreach',
-      'Application Workflow',
-    ],
-
-    caseStudy: {
-
-      problem:
-        'Applying to jobs at scale requires repeatedly reviewing job descriptions, assessing fit, tailoring application materials, and writing personalized outreach, creating a time-consuming and repetitive workflow.',
-
-      solution:
-        'Built an AI recruiting application that parses a candidate resume, analyzes job descriptions, evaluates candidate–job fit, and generates personalized outreach based on the candidate’s experience and the specific opportunity.',
-
-      architecture:
-        'A candidate resume is provided to the application and parsed into structured information. Job descriptions are analyzed alongside the candidate profile, with an LLM evaluating the alignment between skills, experience, and role requirements. The system then generates personalized outreach and application content based on the identified fit.',
-
-      technicalApproach:
-        'Combined document parsing, natural language processing, and LLM-based reasoning to transform unstructured resume and job-description text into structured candidate–job insights. The application uses the resulting context to generate role-specific recommendations and personalized outreach.',
-
-      governance:
-        'Designed the workflow to keep generated content grounded in the candidate’s actual resume and the target job description, reducing unsupported claims and preventing the system from inventing candidate experience.',
-
-      results:
-        'Created an end-to-end AI-assisted recruiting workflow that reduces repetitive job application work while producing more targeted, role-specific outreach.',
-
-      technology: [
-        'Python',
-        'LLMs',
-        'NLP',
-        'Resume Parsing',
-        'Job Matching',
-        'Streamlit',
-      ],
-
-    },
-  },
+      
 ]
