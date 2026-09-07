@@ -132,28 +132,60 @@ export const projects = [
       technology: ['Python', 'LSTM', 'Deep Learning', 'Machine Learning'],
     },
   },
-  {
-    id: 'graph-recommendation-system',
-    name: 'Graph-Based Recommendation System',
-    category: 'Machine Learning / AI',
-    technologies: ['Python', 'GCN', 'Graph Neural Networks', 'Machine Learning'],
+      {
+    id: 'ai-recruiter',
+    name: 'AI Recruiter — Job Matching & Outreach Agent',
+    category: 'AI / Product',
+    technologies: [
+      'Python',
+      'LLMs',
+      'NLP',
+      'Resume Parsing',
+      'Job Matching',
+      'Streamlit',
+    ],
     description:
-      'Built a graph-based recommendation approach that models users and items as connected entities to capture relationships and generate personalized recommendations.',
-    highlight: null,
-    architecture: ['Users', 'Interactions', 'Items'],
+      'Built an AI-powered recruiting application that analyzes a candidate’s resume against job opportunities and generates personalized application outreach.',
+    highlight: 'AI-powered job matching and personalized outreach.',
+    architecture: [
+      'Resume',
+      'Resume Parsing',
+      'Job Description',
+      'LLM Analysis',
+      'Candidate–Job Matching',
+      'Personalized Outreach',
+      'Application Workflow',
+    ],
+
     caseStudy: {
+
       problem:
-        'Traditional recommendation approaches can struggle to capture the relational structure between users and items beyond direct interaction history.',
+        'Applying to jobs at scale requires repeatedly reviewing job descriptions, assessing fit, tailoring application materials, and writing personalized outreach, creating a time-consuming and repetitive workflow.',
+
       solution:
-        'Represented users and items as nodes in a graph connected by interactions, and used a Graph Convolutional Network to learn representations for personalized recommendations.',
+        'Built an AI recruiting application that parses a candidate resume, analyzes job descriptions, evaluates candidate–job fit, and generates personalized outreach based on the candidate’s experience and the specific opportunity.',
+
       architecture:
-        'Users and items are modeled as nodes, connected by interaction edges, with a GCN learning over this graph structure to produce recommendations.',
+        'A candidate resume is provided to the application and parsed into structured information. Job descriptions are analyzed alongside the candidate profile, with an LLM evaluating the alignment between skills, experience, and role requirements. The system then generates personalized outreach and application content based on the identified fit.',
+
       technicalApproach:
-        'Used Python and Graph Neural Networks (GCN) to learn node embeddings over the user-item interaction graph, capturing relationships beyond simple co-occurrence.',
-      governance: null,
+        'Combined document parsing, natural language processing, and LLM-based reasoning to transform unstructured resume and job-description text into structured candidate–job insights. The application uses the resulting context to generate role-specific recommendations and personalized outreach.',
+
+      governance:
+        'Designed the workflow to keep generated content grounded in the candidate’s actual resume and the target job description, reducing unsupported claims and preventing the system from inventing candidate experience.',
+
       results:
-        'Established a graph-based approach to personalized recommendations that models relationships between users and items directly.',
-      technology: ['Python', 'GCN', 'Graph Neural Networks', 'Machine Learning'],
+        'Created an end-to-end AI-assisted recruiting workflow that reduces repetitive job application work while producing more targeted, role-specific outreach.',
+
+      technology: [
+        'Python',
+        'LLMs',
+        'NLP',
+        'Resume Parsing',
+        'Job Matching',
+        'Streamlit',
+      ],
+
     },
   },
 ]
