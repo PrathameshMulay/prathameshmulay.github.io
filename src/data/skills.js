@@ -62,8 +62,8 @@ export const approach = [
 
 // TODO: Replace placeholder links with real profile URLs before publishing.
 export const links = {
-  github: '#github-placeholder',
-  linkedin: '#linkedin-placeholder',
+  github: 'https://github.com/PrathameshMulay',
+  linkedin: 'https://www.linkedin.com/in/prathmesh-sanjay-mulay/',
   email: 'mailto:your-email@example.com', // TODO: replace with real email address
   resume: '#resume-placeholder', // TODO: replace with hosted resume URL
 }
