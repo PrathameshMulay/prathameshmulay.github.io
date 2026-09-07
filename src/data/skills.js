@@ -64,6 +64,6 @@ export const approach = [
 export const links = {
   github: 'https://github.com/PrathameshMulay',
   linkedin: 'https://www.linkedin.com/in/prathmesh-sanjay-mulay/',
-  email: 'mailto:your-email@example.com', // TODO: replace with real email address
-  resume: '#resume-placeholder', // TODO: replace with hosted resume URL
+  email: 'mailto:prathamesh.mulay5@gmail.com', // TODO: replace with real email address
+  resume: 'https://drive.google.com/file/d/1cKgtXp0QirowkccNrlJCwqI9Au_EIDak/view?usp=sharing', // TODO: replace with hosted resume URL
 }
